@@ -58,22 +58,22 @@ def sureToQuit():
                 
         
 def dotdotdot():
-    #time.sleep(.4)
+    time.sleep(.4)
     for x in range(3):
         print ".",
-        #time.sleep(.4)
+        time.sleep(.4)
         
 def fastdotdotdot():
-    #time.sleep(.23)
+    time.sleep(.23)
     for x in range(3):
         print ".",
-        #time.sleep(.23)
+        time.sleep(.23)
         
 def slowdotdotdot():
-    #time.sleep(1.6)
+    time.sleep(1.6)
     for x in range(4):
         print ".",
-        #time.sleep(1)
+        time.sleep(1)
         
 def displayStats():
     global hero, zone
